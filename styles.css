@@ -1,0 +1,26 @@
+#container {
+    width: 600px;
+    height: 600px;
+    border: 2px solid blue;
+    display: grid;
+}
+
+body {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.grids{
+    border: 2px solid black;
+}
+
+.grids:hover{
+    background-color:green;
+}
+
+
+
+
+
+
