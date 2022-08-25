@@ -1,23 +1,45 @@
 #container {
+    margin-top: 70px;
     width: 600px;
     height: 600px;
     border: 2px solid blue;
     display: grid;
+    background-color: gray;
 }
-
 body {
-    margin-top: 75px;
-    display: flex;
-    justify-content: center;
+    background-color: gray;
 }
 
-.grids{
-    border: 2px solid black;
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    color: red;
+    background-color: black;
+    padding: 6px;
+    margin-left: 650px;
+    width: max-content;
 }
 
 .grids:hover{
     background-color:green;
 }
+.outerContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;  
+    gap: 8px;
+}
+
 
 
 
